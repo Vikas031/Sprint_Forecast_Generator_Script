@@ -1,0 +1,8 @@
+24.17
+B,31,35
+B,47,50
+I,33,37
+DBX Project Involvement,45.5
+Accessibility,55.1
+Product Management,36.5
+MyPortal,13.1
