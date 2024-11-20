@@ -1,9 +1,11 @@
 This is a utility helper tool to parse jira tickets from capacity planning excel sheet and helps in preparing ION.WEB forecast quickly.
+Use : Run planning_forecast_generator.exe directly available in dist folder 
 
-To build exec : pyinstaller  --onefile forecast_generator.py
+To build exec : pyinstaller  --onefile planning_forecast_generator.py
 
 **Note.** The tool require two files as input at same directory level as the executable. Also the name of the file should be same as mentioned here - 
-- **forecast.xlsx file** - The capacity planning excel sheet you want the tool to parse. *( Tip - Generate a excel file with this name and copy the content of current sprint planning sheet here)*.
+`for sample you can refer to sample_input and sample_planning.xlsx file`.
+- **planning.xlsx file** - The capacity planning excel sheet you want the tool to parse. *( Tip - Generate a excel file with this name and copy the content of current sprint planning sheet here)*.
 5
 - **input.txt** The input data which will help generator fetch the information from excel. The content should be in CSV format in which each row denotes a section and as per the guidelines/format given below. 
     

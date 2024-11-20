@@ -188,7 +188,7 @@ if __name__ == "__main__":
     password='' 
     # credential check kar lete he 
     while True:
-        username = input("Plese enter your jira username  : ")
+        username = input("Please enter your jira username  : ")
         password = getpass.getpass("Please enter you jira password :")
         value = authenticate_jira(username,password)
         if value:
